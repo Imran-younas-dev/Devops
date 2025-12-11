@@ -1,4 +1,4 @@
-# 35
+# 50
 **Operating System (OS)**
 
 Basically, two things want to communicate with the hardware:
@@ -64,5 +64,39 @@ A **package manager** is used in Ubuntu to **install, upgrade, maintain, and rem
 * If the software is not available via `apt`, we can install it **manually** or using other tools like **WGL**.
 
 ---
+============================================================================================================
+Now let’s talk about the **main path** in Linux.
 
-I can also make it **even simpler and easy to remember for notes** if you want. Do you want me to do that?
+When you see something like this:
+
+```
+root@hostname:~$
+```
+
+There are two important parts here:
+
+1. **root** → this is the *user* (the account currently logged in)
+2. **~ (tilde)** → this represents the *home directory*
+
+The **home directory** is basically the user’s personal folder, for example:
+
+```
+/home/userName
+```
+
+Every user gets their own home directory.
+
+You can check your current location using the `pwd` command, which shows your **path**.
+
+Think of it like **Google Drive**:
+When you create a new account, it starts with a root folder. After that, you create your own folders and organize things the way you want.
+
+---
+
+### If you want, I can also explain:
+
+* What `/` root directory is
+* What `/home`, `/etc`, `/var`, `/bin` mean
+* Or I can draw a simple folder tree diagram
+
+Just tell me!
