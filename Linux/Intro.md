@@ -1,4 +1,4 @@
-# 50
+# 60
 **Operating System (OS)**
 
 Basically, two things want to communicate with the hardware:
@@ -100,3 +100,67 @@ When you create a new account, it starts with a root folder. After that, you cre
 * Or I can draw a simple folder tree diagram
 
 Just tell me!
+
+
+========================================================================================================================
+Apart from the **CLI shell**, the folders we see—especially the **main system folders**—are part of the **Operating System**, not the home directory.
+
+The **home directory** is only for **user files**, while **system libraries and system utilities** are stored in **system directories**, not inside the home directory.
+
+When we run:
+
+```bash
+cd /
+```
+
+it takes us directly to the **root directory** (`/`), which is the top-level directory of Linux.
+
+---
+
+### Important System Directories
+
+#### 1. `/sbin`
+
+* `/sbin` stands for **system binaries**
+* It contains commands and binary files used to **manage the system**
+* These commands are mostly for the **administrator (root user)**
+* Example:
+
+  * `adduser`
+  * `reboot`
+  * `shutdown`
+
+✔️ Your understanding here is correct.
+
+---
+
+#### 2. `/boot`
+
+* `/boot` is used during **system startup and restart**
+* It contains files required to **boot the operating system**
+* Examples:
+
+  * kernel files
+  * bootloader files
+
+✔️ Correct.
+
+---
+
+#### 3. `/bin`
+
+* `/bin` contains **essential user commands**
+* These commands are available to **all users**
+* Examples:
+
+  * `ls`
+  * `cp`
+  * `mv`
+  * `cat`
+
+👉 Difference between `/bin` and `/sbin`:
+
+* `/bin` → commands for **all users**
+* `/sbin` → commands mainly for **system administration**
+
+✔️ Concept is correct, just wording improved.
