@@ -1,4 +1,4 @@
-# 60
+# 1.40mnt
 **Operating System (OS)**
 
 Basically, two things want to communicate with the hardware:
@@ -92,15 +92,6 @@ Think of it like **Google Drive**:
 When you create a new account, it starts with a root folder. After that, you create your own folders and organize things the way you want.
 
 ---
-
-### If you want, I can also explain:
-
-* What `/` root directory is
-* What `/home`, `/etc`, `/var`, `/bin` mean
-* Or I can draw a simple folder tree diagram
-
-Just tell me!
-
 
 ========================================================================================================================
 Apart from the **CLI shell**, the folders we see—especially the **main system folders**—are part of the **Operating System**, not the home directory.
