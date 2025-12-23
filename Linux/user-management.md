@@ -56,3 +56,32 @@ vim /etc/shadow
 ### One-line summary
 
 👉 User management in Linux prevents system damage by ensuring **the right user has the right level of access**.
+
+# -----------------------------------------------------------------------------------------------------------------------------------------
+
+### Password & User Management (Short)
+
+* Linux passwords are **one-way hashed** and **cannot be restored**, only **reset**.
+* If a user leaves the organization, the account is deleted:
+
+  ```bash
+  userdel <username>
+  ```
+* To switch users:
+
+  ```bash
+  su - <username>
+  ```
+
+---
+
+### Interview: `useradd` vs `adduser`
+
+* **useradd**: Low-level command, no prompts, used in scripts.
+* **adduser**: User-friendly, asks for details, used manually.
+
+---
+
+### Password Restore?
+
+❌ No. Passwords are stored as **hashes** in `/etc/shadow`, so recovery is impossible.

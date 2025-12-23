@@ -1,4 +1,4 @@
-# 1.40mnt
+# 2H : 0m
 **Operating System (OS)**
 
 Basically, two things want to communicate with the hardware:
