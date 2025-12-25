@@ -51,3 +51,29 @@ Once logged in, users can access resources based on **group permissions**.
 ### One-line summary
 
 👉 Groups help manage permissions **role-wise instead of user-wise**, especially in large organizations.
+
+
+# ====================================================================================================
+
+### SSH (Secure Shell)
+
+An **SSH client** is a process through which we can access a **Linux virtual environment remotely** as a user.
+It allows us to connect to a Linux server **live**, just like working on the system directly.
+
+By default, a Linux server runs the **SSHD (SSH daemon)** service.
+
+To access the server, we use an **SSH client** from the command line.
+
+**Command:**
+
+```bash
+ssh <username>@<ip-address>
+```
+
+After running the command, it asks for a **password**, and once authenticated, you are logged in to the **Linux instance**.
+
+---
+
+### One-line summary
+
+👉 SSH lets you securely log in to a remote Linux server using the command line.
