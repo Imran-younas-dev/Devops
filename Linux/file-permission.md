@@ -68,3 +68,69 @@ Linux file permissions control **who can read, write, or execute a file**, ensur
 
 ---
 
+
+### ==========================================================================================================
+
+### **Linux File Permissions (Simple Explanation)**
+
+As discussed, there are **three permission types** for every file:
+
+1. **User (Owner)**
+   → The user who created the file
+
+2. **Group**
+   → A group of users who can be given specific permissions
+
+3. **Others**
+   → All other users (for example, QA users)
+
+---
+
+### **Changing Permissions using `chmod`**
+
+The command to change file permissions is:
+
+```
+chmod <permissions> <filename>
+```
+
+We often use **numbers** because they are easier and faster.
+
+#### **Permission values**
+
+* **r (read)** = 4
+* **w (write)** = 2
+* **x (execute)** = 1
+
+---
+
+### **Examples**
+
+#### **Read + Write permission**
+
+If you want to give **read and write (rw-)** permission to **user, group, and others**:
+
+```
+chmod 666 filename
+```
+
+(4 + 2 = 6)
+
+#### **Read-only permission**
+
+If you want to give **read-only** permission to the **user only**:
+
+```
+chmod 400 filename
+```
+
+---
+
+### **Quick reminder**
+
+* The **first digit** → user
+* The **second digit** → group
+* The **third digit** → others
+
+This system helps control **who can read, write, or execute a file**, keeping the system secure.
+
