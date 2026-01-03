@@ -134,3 +134,72 @@ chmod 400 filename
 
 This system helps control **who can read, write, or execute a file**, keeping the system secure.
 
+
+
+# ===================================================
+### **`chmod` vs `chown` in Linux**
+
+We have already learned about **`chmod`**, which is used to **manage file permissions**
+(read, write, execute).
+
+Now we are learning about **`chown`**, which is used to **change ownership** of a file or folder.
+
+---
+
+### **What is `chown`?**
+
+**`chown` = change owner**
+
+Example scenario:
+
+* A **QA user is leaving the organization**
+* The QA user wants to **transfer ownership** of a file to the **Developer**
+
+Command:
+
+```
+chown dev:dev test.sh
+```
+
+This means:
+
+* **Owner** of `test.sh` becomes `dev`
+* **Group** also becomes `dev`
+
+---
+
+### **File permission vs Folder permission**
+
+* **File permissions** control:
+
+  * Who can **read**, **write**, or **execute** a file
+
+* **Folder (directory) permissions** control:
+
+  * Who can **enter the folder**
+  * Who can **list files**
+  * Who can **create or delete files** inside it
+
+---
+
+### **Easy real-life example (Bank example)**
+
+Think of it like a **bank**:
+
+* First, you need **permission to enter the bank**
+  → This is like **folder permission**
+
+* Then, you need **separate permission to access a locker**
+  → This is like **file permission**
+
+If you don’t have permission to **enter the bank (folder)**,
+you can never access the **locker (file)** inside it.
+
+---
+
+### **Final takeaway**
+
+* **`chmod`** → controls **what you can do** (read/write/execute)
+* **`chown`** → controls **who owns** the file or folder
+* **Folder permission is required before file permission**
+
