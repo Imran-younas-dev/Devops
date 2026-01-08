@@ -1,4 +1,4 @@
-# 3H : 00m
+# 3H : 25m
 **Operating System (OS)**
 
 Basically, two things want to communicate with the hardware:
